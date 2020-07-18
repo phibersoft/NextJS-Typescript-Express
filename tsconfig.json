@@ -4,8 +4,8 @@
     "module": "commonjs",
     "outDir": "ts_dist",
     "sourceMap": true,
-    "types": ["node", "express"]
+    "types": ["express", "node"]
   },
-  "include": ["./**/*.ts"],
+  "include": ["./server/*.ts", "./server/**/.ts"],
   "exclude": ["node_modules", ".vscode"]
 }
