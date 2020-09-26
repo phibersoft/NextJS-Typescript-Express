@@ -1,3 +1,9 @@
 node_modules/
-dist/
 .vscode/
+**/client/components
+**/client/helpers
+**/client/node_modules
+**/client/pages
+client/*.js
+**/client/package.json
+**/client/package-lock.json
